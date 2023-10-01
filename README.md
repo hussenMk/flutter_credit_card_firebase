@@ -15,13 +15,15 @@ Credit Card App is open-source for Android & ios. It is build with Dart Language
 - Update Credit Card.
 - Delete Credit Card.
 - Secure data storage on Firebase.
+- Email verification.
+- Change or reset your password 
 - Beautiful UI.
 
 
 ## Snapshots
-| Welcom Screen | Home Screen | Drawer |
+| Login Screen | SigUup Screen | Home Screen |
 |------|-------|-------|
-|<img src="" width="400">|<img src="" width="400">|<img src="" width="400">|
+|<img src="https://github.com/hussenMk/flutter_credit_card_firebase/assets/82022968/91af531d-fa60-4daa-9272-c0554710c1a8" width="400">|<img src="https://github.com/hussenMk/flutter_credit_card_firebase/assets/82022968/5dfcdb5e-b686-4cc4-8898-508a571a4cde" width="400">|<img src="https://github.com/hussenMk/flutter_credit_card_firebase/assets/82022968/4d6565a9-16fd-4b62-9fbd-04aa215fb55f" width="400">|
 
 
 
