@@ -1,4 +1,4 @@
-# Flutter Credit Card App 📝
+# Flutter Credit Card App 🪪
 Flutter Credit Card App & SqfLite & GetX [MVC Architecture].
 
 Credit Card App is open-source for Android & ios. It is build with Dart Language and Google's Flutter Framework.
