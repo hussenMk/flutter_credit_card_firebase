@@ -120,7 +120,6 @@ class AuthController extends GetxController {
 
   Future resetPassword() async {
     try {
-      //! التراي والكاتش عشان لو دخل بريد مو موجود في قاعدة البيانات
       await FirebaseAuth.instance.sendPasswordResetEmail(
           email: FirebaseAuth.instance.currentUser!.email.toString());
 
