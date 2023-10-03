@@ -73,13 +73,13 @@ class AuthController extends GetxController {
         email: emailSignup.text,
         password: passwordSignup.text,
       );
+
+      FirebaseAuth.instance.currentUser!.sendEmailVerification();
       Get.offNamed(AppRoutes.auth);
       Get.defaultDialog(
         title: "تنبيه",
         content: const Text("تم ارسال  رسالة التحقق إلى بريدك الالكتروني"),
       );
-
-      Get.off(AppRoutes.auth);
     } on FirebaseAuthException catch (e) {
       if (e.code == 'weak-password') {
         Get.defaultDialog(
@@ -105,7 +105,6 @@ class AuthController extends GetxController {
       return;
     }
     try {
-      //! التراي والكاتش عشان لو دخل بريد مو موجود في قاعدة البيانات
       await FirebaseAuth.instance
           .sendPasswordResetEmail(email: emailLogin.text);
 
