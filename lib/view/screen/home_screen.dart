@@ -24,7 +24,7 @@ class HomeScreen extends StatelessWidget {
               CustomAppBarHome(),
               CustomContainerHome(),
               SizedBox(height: 20),
-              CustomTitle(txt: 'Features'),
+              CustomTitle(txt: 'Features '),
               SizedBox(height: 10),
               CustomOptionsList(),
             ],
@@ -34,4 +34,3 @@ class HomeScreen extends StatelessWidget {
     );
   }
 }
-
